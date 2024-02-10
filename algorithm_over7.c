@@ -6,7 +6,7 @@
 /*   By: kmatsuka <kmatsuka@student.42tokyo.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/09 21:10:59 by kmatsuka          #+#    #+#             */
-/*   Updated: 2024/02/10 03:50:01 by kmatsuka         ###   ########.fr       */
+/*   Updated: 2024/02/10 10:18:13 by kmatsuka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,4 +51,5 @@ void	my_algorithm7(t_dlist *stack1, t_dlist *stack2)
 		while (stack2 != stack2->next)
 			push(stack2, stack1, 1);
 	}
+	free(array);
 }
